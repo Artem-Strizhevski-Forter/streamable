@@ -1,8 +1,10 @@
 # Changelog
 
-`streamable` follows *MAJOR.MINOR.PATCH* semantic versioning, expect breaking changes only in *MAJOR* version bumps.
+`streamable` follows *MAJOR.MINOR.PATCH* semantic versioning, expect breaking changes only in *MAJOR* version bumps (though typing-only changes can occur in *MINOR* bumps).
 
 ## [2.1.0]
+
+- `.take`'s `until` param is now keyword-only, aligning with `.skip`.
 
 - `.buffer`: `up_to` now defaults to `None` for unbounded buffer: `stream(...).buffer()`
 
